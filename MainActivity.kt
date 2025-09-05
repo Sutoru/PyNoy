@@ -116,6 +116,7 @@ import androidx.compose.ui.platform.LocalContext
 import android.content.Intent
 import androidx.activity.OnBackPressedCallback
 import com.example.pynoycompiler.ui.theme.PyNoyCompilerTheme
+import com.example.pynoycompiler.evaluateNumericValue
 
 data class CodeTab(
     val name: String,
